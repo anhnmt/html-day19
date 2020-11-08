@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cls {
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header {
+    background-color: #726b65;
+    /* overflow: hidden; */
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.logo img {
+    padding: 20px 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 50px 5px;
+    
+}
+
+.menu li.active, .menu li:hover {
+    background-color: #a6b911;
+    border-bottom: 5px solid #99aa10;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.slide {
+    position: relative;
+}
+
+#slide2 {
+    display: none;
+}
+
+.intro {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.intro a {
+    background-color: #a6b911;
+    padding: 5px 10px;
+    display: inline-block;
+    min-width: 160px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.intro h3 {
+    font-size: 30px;
+}
+
+.intro p, .dang-ky p, .box-1 p {
+    margin: 15px 0;
+}
+
+.dang-ky {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dang-ky span {
+    color: #a6b911;
+}
+
+.dang-ky a {
+    background-color: #a6b911;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+.center {
+    background-color: #f6f6f4;
+    overflow: hidden;
+}
+
+.box-1 {
+    width: 30%;
+    float: left;
+    margin-right: 3.33%;
+}
+
+.box-1 a, .box-2 a {
+    background-color: #726b65;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.box-2 {
+    width: 24.5%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+.gioi-thieu, .hang-muc {
+    padding: 30px 0 60px;
+    overflow: hidden;
+}
+
+.gioi-thieu h2, .hang-muc h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.content {
+    padding: 20px 10px;
+}
+
+.box-2 h5 {
+    color: #a6b911;
+}
+
+.box-2 p {
+    padding: 20px 0;
+}
+
+.hang-muc .line {
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+
+.person {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.anh {
+    float: left;
+    padding-right: 10px;
+}
+
+.lanh-dao {
+    float: left;
+    padding: 10px 0;
+}
+.lanh-dao b {
+    color: #9f9f9f;
+}
+
+.lanh-dao h5, .lanh-dao b, .lanh-dao i {
+    font-size: 13px;
+}
+
+.bottom {
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+.bottom  h3 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000; 
+}
+
+.chat {
+    position: relative;
+}
+
+.chat .noi-dung {
+    line-height: 20px;
+    margin: 0 auto;
+    font-size: 11px;
+    font-weight: bold;
+    width: 90%;
+    color: #888888;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user h5 {
+    color: #abbd1e;
+}
+
+.user b {
+    color: #8b8b8b;
+}
+
+.dieu-khoan {
+    border-bottom: 1px solid #dedede;
+}
+
+.dieu-khoan i {
+    padding-right: 10px;
+}
+
+.dieu-khoan h4 {
+    padding: 15px 0;
+}
+
+.dieu-khoan h5 {
+    margin: 20px 0 35px;
+    font-size: 13px;
+    color: #87817d;
+}
+
+#dk2 h5, #dk3 h5 {
+    display: none;
+}
+
+/* ..footer {
+    height: 300px;
+    background-color: #726b65;
+} */
+
+.footer {
+	font-family: 'Open Sans',sans-serif;
+	margin: 0 auto;
+	background: #726b65 ;
+    overflow: hidden;
+}
+
+.green {
+	background: #a6b911;
+	height: 7px;
+	margin-bottom: 50px;
+}
+
+.footer .left {
+	float: left;
+	width: 70%;
+}
+
+.footer .left1 {
+	width: 25%;
+	padding-right: 30px;
+	float: left;
+}
+
+.footer .left h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 30px;
+}
+
+.footer .left h4 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 10px;
+	padding-bottom: 30px;
+	font-weight: normal
+}
+
+.footer .right {
+	width: 30%;
+}
+
+.footer .right .text p {
+	font-style: normal
+}
+
+.footer .right .home i {
+	color: #a6b911;
+	float: left;
+	padding-right: 10px;
+}
+
+.footer .right .phone i {
+	color: #a6b911;
+	float: left;
+	padding-right: 10px;
+}
+
+.footer .right .icon {
+	padding-top: 30px;
+	font-size: 36px;
+}
